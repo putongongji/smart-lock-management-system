@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>测试页面</title>
+</head>
+<body>
+    <div style="background: red; color: white; padding: 50px; font-size: 30px;">
+        <h1>静态测试页面</h1>
+        <p>如果你能看到这个页面，说明浏览器工作正常</p>
+        <p id="time"></p>
+    </div>
+    <script>
+        document.getElementById('time').textContent = '时间: ' + new Date().toLocaleString();
+    </script>
+</body>
+</html>

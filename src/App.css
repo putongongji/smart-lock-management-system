@@ -1,0 +1,29 @@
+/* App.css - 应用程序主样式文件 */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-content {
+  flex: 1;
+  padding: 24px;
+  background-color: var(--color-background);
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+  .app-content {
+    padding: 16px;
+  }
+}
+
+/* 确保布局的一致性 */
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-layout-content {
+  background-color: var(--color-background);
+}
